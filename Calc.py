@@ -85,3 +85,18 @@ for x in dList:
     print(eList)
 
 
+#Sorting in a list
+
+
+fList = ["e", "z", "a", "c"]
+
+fList.sort()
+print(fList)
+
+gList = [2, 5, 3, 20, 9, 6, 1, 4]
+gList.sort(reverse=True)
+print(gList)
+
+
+value = 2 + 3
+print(value)

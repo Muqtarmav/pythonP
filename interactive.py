@@ -178,3 +178,24 @@ Z = {"tinu", "ola"}
 
 Y.symmetric_difference(Z)
 print(Z)
+
+
+#Dict
+
+newDict = {
+    "name": "muqtar",
+    "age": "23",
+    "nation": "Nigeria"
+}
+
+newDict["color"] = "brown"
+
+print(newDict)
+
+print(newDict.get("name"))
+
+print(newDict.keys())
+print(newDict.values())
+
+c = newDict.items()
+print(c)

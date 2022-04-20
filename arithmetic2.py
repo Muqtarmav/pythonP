@@ -61,91 +61,91 @@ while count < 10:
     count = count + 1
 
 #getting the arithmetic of 2 numbers
-# number1 = int(input("enter number 1 "))
-# print(number1)
-# number2 = int(input("enter number 2 "))
-# print(number2)
-# addition = number1 + number2
-# division = number1 / number2
-# multiply = number1 * number2
-# substraction = number1 - number2
-#
-# print(addition)
-# print(division)
-# print(multiply)
-# print(substraction)
+number1 = int(input("enter number 1 "))
+print(number1)
+number2 = int(input("enter number 2 "))
+print(number2)
+addition = number1 + number2
+division = number1 / number2
+multiply = number1 * number2
+substraction = number1 - number2
+
+print(addition)
+print(division)
+print(multiply)
+print(substraction)
 
 #comparing two numbers
-#
-# number1 = int(input("enter first number"))
-# number2 = int(input("enter second number"))
-#
-# if number1 > number2:
-#     print(number1)
-# elif number1 == number2:
-#     print("these numbers are equal")
-# else:
-#     print(number2)
-#
+
+number1 = int(input("enter first number"))
+number2 = int(input("enter second number"))
+
+if number1 > number2:
+    print(number1)
+elif number1 == number2:
+    print("these numbers are equal")
+else:
+    print(number2)
+
 
 #computing three integers
-#
-# number1 = int(input("enter first number"))
-# number2 = int(input("enter second number"))
-# number3 = int(input("enter third number"))
-#
-#
-# addition = number1 + number2 + number3
-# division = number1 / number2 / number3
-# multiply = number1 * number2 * number3
-# substraction = number1 - number2 - number3
-#
-# print(addition)
-# print(division)
-# print(multiply)
-# print(substraction)
-#
-#
-# resultMin = min(number1, min(number2, number3))
-# resultMax = max(number1, max(number2, number3))
-#
-# print(resultMin)
-# print(resultMax)
-#
-#
+
+number1 = int(input("enter first number"))
+number2 = int(input("enter second number"))
+number3 = int(input("enter third number"))
+
+
+addition = number1 + number2 + number3
+division = number1 / number2 / number3
+multiply = number1 * number2 * number3
+substraction = number1 - number2 - number3
+
+print(addition)
+print(division)
+print(multiply)
+print(substraction)
+
+
+resultMin = min(number1, min(number2, number3))
+resultMax = max(number1, max(number2, number3))
+
+print(resultMin)
+print(resultMax)
+
+
 
 
 #check for even and odd
-# number = int(input("enter number "))
-#
-# if number % 2 == 0:
-#     print("this number is even")
-# else:
-#     print("this number is odd")
+number = int(input("enter number "))
+
+if number % 2 == 0:
+    print("this number is even")
+else:
+    print("this number is odd")
 
 
 #check for multiples of two numbers
-# number1 = int(input("enter number 1 "))
-# number2 = int(input("enter number 2 "))
-#
-# if number1 % number2 == 0:
-#     print("its a multiple")
-# else:
-#     print("not a multiple")
+number1 = int(input("enter number 1 "))
+number2 = int(input("enter number 2 "))
+
+if number1 % number2 == 0:
+    print("its a multiple")
+else:
+    print("not a multiple")
 
 #RADIUS, DIAMETER OF A CIRCLE
-# radius = int(input("enter radius as a int"))
-#
-# diameter = radius * radius
-#
-# circum  = 2 * math.pi * radius
-#
-# area = math.pi * radius * radius
-#
-# print(diameter)
-# print(circum)
-# print(area)
-#
+radius = int(input("enter radius as a int"))
+
+diameter = radius * radius
+
+circum  = 2 * math.pi * radius
+
+area = math.pi * radius * radius
+
+print(diameter)
+print(circum)
+print(area)
+
 
 #COUNT POSITIVE, NEGATIVE AND ZEROS
 

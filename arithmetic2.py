@@ -200,3 +200,87 @@ if number5 == 0:
 print(numPositive)
 print(numNegative)
 print(numZero)
+#
+# Chapter4
+# finding the largest value
+
+largestValue = 0
+digits = 0
+count = 0
+
+while count < 10:
+    digits =  int(input("enter numbers "))
+    count = count + 1
+
+
+    if digits > largestValue:
+        largestValue = digits
+
+print(largestValue)
+#
+# validating input
+
+digit = int(input("enter number"))
+
+while digit != 1 & digit != 2:
+    digit = int(input("enter number "))
+
+
+
+
+gallons = 0
+mpg = 0.0
+totalmpg = 0.0
+totalMiles = 0
+totalGallon = 0
+
+
+miles = int(input("enter miles number or -1 to quit"))
+
+if miles != -1:
+    gallon = int(input("enter gallons"))
+
+while miles != -1:
+    totalMiles = miles + 1
+    totalGallon = gallons + 1
+    mpg = float (miles / gallons)
+    totalmpg = totalMiles / totalGallon
+
+    print(mpg)
+    print(totalmpg)
+
+    miles = int(input("enter miles or -1 to quit"))
+    if miles != -1:
+        gallon = int(input("enter gallon"))
+
+
+
+
+# Hollow Square
+count = 1
+column = 1
+while count <= 5:
+    count = count + 1
+while column >= 10:
+    column = column +1
+    if count == 1 | count == 5 | column == 1 | column == 10:
+        print("*")
+else:
+    print(" ")
+
+print()
+
+
+
+# filledSQUARE
+
+count = 0
+column = 0
+
+while count <= 5:
+    count = count + 1
+    if column == 0 & column <= 10:
+        column = column + 1
+    print("*")
+
+print()

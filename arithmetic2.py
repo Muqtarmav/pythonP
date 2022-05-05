@@ -284,3 +284,53 @@ while count <= 5:
     print("*")
 
 print()
+
+factorial
+
+number = 5
+factorial = 1
+count = 1
+
+while count < number:
+    count = count + 1
+    factorial = factorial * count
+print("the factorial of", count, 'is ', factorial)
+
+
+count integers
+
+number = 74883993
+count = 0
+
+
+while number != 0:
+    number = number / 10
+    count = count + 1
+print(count)
+
+
+#Length of a string
+
+word = "amazing"
+count = 0
+for i in word:
+    count = count + 1
+print(count)
+
+
+#count vowels, consonant, digits, spaces
+
+vowels = 0
+consonant = 0
+digit = 0
+spaces = 0
+count = 0
+
+name = "Hello who is at home"
+while count < len(name):
+    print(name[count])
+    if name[count] == "a" | name[count] == "z":
+        consonant += 1
+    count += 1
+
+print(consonant)

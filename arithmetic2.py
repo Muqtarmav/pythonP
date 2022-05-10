@@ -285,7 +285,7 @@ while count <= 5:
 
 print()
 
-factorial
+#factorial
 
 number = 5
 factorial = 1
@@ -297,7 +297,7 @@ while count < number:
 print("the factorial of", count, 'is ', factorial)
 
 
-count integers
+#count integers
 
 number = 74883993
 count = 0
@@ -334,3 +334,4 @@ while count < len(name):
     count += 1
 
 print(consonant)
+
